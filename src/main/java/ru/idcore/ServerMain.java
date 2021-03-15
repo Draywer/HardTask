@@ -26,7 +26,7 @@ public class ServerMain {
                         System.out.println("SERVER is stopped...");
                         break;
                     } else {
-                        System.out.println("Client: " + socket.getRemoteSocketAddress() + " - " + line + " - й член ряда Фибоначи?");
+                        System.out.println("Client: " + socket.getRemoteSocketAddress() + " - " + line + " - й номер ряда Фибоначи?");
                         writer.println(line + " - й член ряда Фибоначи: " + Fibonachi.getNumber(Integer.parseInt(line)));
                     }
                 }

@@ -14,7 +14,7 @@ public class ClientMain {
 
             String msg;
             while (true) {
-                System.out.println("Введите номер N -й номер ряда Фибоначи: ");
+                System.out.println("Введите N -й номер ряда Фибоначи: ");
                 msg = scanner.nextLine();
                 writer.println(msg);
 
